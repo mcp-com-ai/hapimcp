@@ -1,5 +1,7 @@
 # HAPI MCP
 
+![HAPI MCP](hapi-mcp-protocol-layer.svg)
+
 Turn an OpenAPI-described API into an [MCP](https://modelcontextprotocol.io/)
 server, or expose an [Arazzo](https://spec.openapis.org/arazzo/latest.html)
 workflow as a higher-level MCP tool.
@@ -82,6 +84,22 @@ hapi doctor
 ```
 
 ### Native binaries
+
+Install the HAPI MCP CLI in one line, try MCP for your APIs in 5 seconds
+
+**Linux / macOS**
+
+```bash
+curl -fsSL https://get.mcp.com.ai/hapi.sh | bash -s -- --version v1
+```
+
+**Windows**
+
+```shell
+irm https://get.mcp.com.ai/hapi.ps1 | iex -Version v1
+```
+
+**Manual installation**
 
 Download the binary for your operating system from
 [Releases](https://github.com/mcp-com-ai/hapimcp/releases), make it executable,
