@@ -1,0 +1,92 @@
+La Rebelion Labs Community License (LRL-CL)
+Version 1.0
+Copyright (c) 2026 La Rebelion Labs
+
+By accessing, downloading, using, or modifying this software, you agree to the terms of this License.
+
+1. Definitions
+
+"Software" means the source code, binaries, assets, documentation, configuration, workflows, examples, templates, and related materials distributed under this License.
+
+"Licensor" means La Rebelion Labs and its contributors.
+
+"User" means an individual or organization accessing or using the Software.
+
+"Community Member" means a user with authorized access through La Rebelion Labs memberships, subscriptions, partnerships, or approved distribution channels.
+
+2. Grant of Rights
+
+Subject to the terms and restrictions of this License, Community Members are granted a limited, non-exclusive, non-transferable, revocable license to:
+
+- Access and use the Software
+- Modify the Software for internal or personal purposes
+- Self-host the Software
+- Learn from and experiment with the Software
+- Build internal solutions using the Software
+
+3. Restrictions
+
+You may NOT, without prior written permission from the Licensor:
+
+- Redistribute the Software
+- Share the source code publicly or privately outside authorized Community Members
+- Publish the Software to public repositories
+- Sell, sublicense, rent, lease, or commercially distribute the Software
+- Offer the Software as a hosted or managed service
+- Create competing commercial products or services based substantially on the Software
+- Remove or alter copyright notices, branding, or license text
+- Circumvent access restrictions, licensing systems, or membership protections
+
+4. Contributions
+
+Unless otherwise agreed in writing, any contributions submitted to the Licensor may be used, modified, redistributed, or relicensed by the Licensor without obligation or compensation.
+
+5. Ownership
+
+The Software is licensed, not sold.
+
+All intellectual property rights, title, and ownership remain exclusively with the Licensor.
+
+6. Termination
+
+This License terminates automatically if you violate any term of this License.
+
+Upon termination, you must immediately stop using and distributing the Software and delete all copies in your possession.
+
+7. No Warranty
+
+THE SOFTWARE IS PROVIDED "AS IS" WITHOUT WARRANTIES OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, NON-INFRINGEMENT, AVAILABILITY, OR PERFORMANCE.
+
+8. No Liability
+
+TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, THE LICENSOR SHALL NOT BE LIABLE FOR ANY CLAIMS, DAMAGES, LOSSES, OR OTHER LIABILITY, WHETHER IN CONTRACT, TORT, OR OTHERWISE, ARISING FROM OR RELATED TO THE SOFTWARE OR ITS USE.
+
+9. Governing Terms
+
+This License constitutes the complete agreement between the User and the Licensor regarding the Software.
+
+The Licensor reserves the right to publish updated versions of this License for future releases of the Software.
+
+Using the Software after receiving updated versions constitutes acceptance of the updated terms.
+
+10. Contact
+
+Licensing inquiries:
+https://rebelion.la
+
+Commercial licensing and enterprise partnerships:
+https://mcp.com.ai  
+https://clawster.my
+
+11. Production and Commercial Use Limitations
+
+Use of the Software in production environments requires a commercial license if ANY of the following conditions apply:
+
+- The organization has more than 25 employees
+- The Software manages more than 10 active agents, runtimes, or orchestrated workloads
+- The Software processes more than 100,000 monthly requests, executions, or workflows
+- The organization generates more than $1,000,000 USD in annual revenue
+- The Software is used as part of a commercial hosted or managed service
+
+For commercial licensing inquiries:
+https://rebelion.la/contact
