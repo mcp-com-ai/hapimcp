@@ -1,0 +1,62 @@
+name: Feature request
+description: Suggest an improvement for HAPI MCP, OrcA, or runMCP.
+title: "[Feature]: "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Before filing, search existing issues and discussions for a similar request.
+  - type: dropdown
+    id: product
+    attributes:
+      label: Product
+      description: Which product would this improve?
+      options:
+        - HAPI MCP
+        - OrcA
+        - runMCP
+    validations:
+      required: true
+  - type: dropdown
+    id: plugin
+    attributes:
+      label: HAPI MCP plugin
+      description: If Product is HAPI MCP, select the plugin. Otherwise choose Not applicable / not sure.
+      options:
+        - Not applicable / not sure
+        - Jev MCP
+        - OpenAPI
+        - Arazzo
+        - Capability Planning
+        - OTel
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem or use case
+      description: What are you trying to do, and what limitation or problem are you encountering?
+      placeholder: As a ..., I want ..., so that ...
+    validations:
+      required: true
+  - type: textarea
+    id: solution
+    attributes:
+      label: Proposed solution
+      description: Describe what you would like the product to do.
+    validations:
+      required: true
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives considered
+      description: What alternatives or workarounds have you considered?
+    validations:
+      required: false
+  - type: textarea
+    id: additional-context
+    attributes:
+      label: Additional context
+      description: Add examples, links, or screenshots that help explain the request.
+    validations:
+      required: false

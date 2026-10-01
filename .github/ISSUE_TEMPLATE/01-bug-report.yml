@@ -1,0 +1,86 @@
+name: Bug report
+description: Report a reproducible problem with HAPI MCP, OrcA, or runMCP.
+title: "[Bug]: "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Before filing, search existing issues for a similar report. Please redact credentials, personal data, and private API details from logs or examples.
+  - type: dropdown
+    id: product
+    attributes:
+      label: Product
+      description: Which product is affected?
+      options:
+        - HAPI MCP
+        - OrcA
+        - runMCP
+    validations:
+      required: true
+  - type: dropdown
+    id: plugin
+    attributes:
+      label: HAPI MCP plugin
+      description: If Product is HAPI MCP, select the plugin. Otherwise choose Not applicable / not sure.
+      options:
+        - Not applicable / not sure
+        - Jev MCP
+        - OpenAPI
+        - Arazzo
+        - Capability Planning
+        - OTel
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: Product version
+      description: Which version are you using? For HAPI MCP, include the CLI and plugin versions if they differ.
+      placeholder: e.g. 1.2.0
+    validations:
+      required: false
+  - type: textarea
+    id: environment
+    attributes:
+      label: Environment
+      description: Include relevant operating system, runtime, client, or deployment details.
+      placeholder: OS, Bun version, MCP client, browser, deployment target, etc.
+    validations:
+      required: false
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      description: Provide the smallest set of steps that reliably reproduces the issue.
+      placeholder: "1. Run ...\n2. Provide ...\n3. Observe ..."
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behavior
+      description: What did you expect to happen?
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: Actual behavior
+      description: What happened instead? Include sanitized error messages if available.
+    validations:
+      required: true
+  - type: textarea
+    id: diagnostics
+    attributes:
+      label: Diagnostics and logs
+      description: For HAPI CLI issues, include the output of `hapi doctor` and whether the issue reproduces with `--dev`. Remove secrets and sensitive data.
+      render: shell
+    validations:
+      required: false
+  - type: textarea
+    id: additional-context
+    attributes:
+      label: Additional context
+      description: Add sanitized screenshots, links, or other details that may help.
+    validations:
+      required: false
