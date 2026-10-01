@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Documentation
+    url: https://docs.mcp.com.ai
+    about: Browse HAPI MCP documentation and usage guidance.
+  - name: Report a security vulnerability
+    url: https://github.com/mcp-com-ai/hapimcp/security/advisories/new
+    about: Please use private vulnerability reporting instead of a public issue.
